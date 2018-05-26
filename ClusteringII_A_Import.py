@@ -9,6 +9,6 @@ import pandas as pd
 import numpy as np
 
 def read_Data():
-    data = pd.read_csv('../data/vienna_sights.csv', delimiter=',')
+    data = pd.read_csv('../../data/vienna_sights.csv', delimiter=',')
     #data.fillna(np.nan)
     return data
